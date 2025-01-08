@@ -219,7 +219,7 @@ const FolderStructureApp = () => {
   const [navigationStack, setNavigationStack] = useState([{ level: 'root' }]);
 
   useEffect(() => {
-  fetch('/api/b5d701a4-1bf9-44a7-a60e-d46683264f02')
+  fetch('https://mocki.io/v1/b5d701a4-1bf9-44a7-a60e-d46683264f02')
     .then(response => response.json())
     .then(data => setData(data));
   }, []);
