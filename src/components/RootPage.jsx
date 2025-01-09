@@ -319,7 +319,7 @@ import { ChevronLeft, Folder, File, ArrowRight, Eye, Trash2 } from 'lucide-react
 const RootPage = ({ onNavigate }) => {
   return (
     <div className="p-4 bg-white rounded-lg shadow">
-      <h2 className="text-xl font-semibold mb-6">PDF Management System</h2>
+      <h2 className="text-xl font-semibold mb-6">Document Management System</h2>
       <div className="flex flex-col gap-4">
         <div 
           className="border rounded-lg p-4 cursor-pointer hover:shadow-lg transition-shadow"
